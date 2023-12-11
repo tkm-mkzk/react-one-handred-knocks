@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom'
 import Counter from './pages/Counter/Counter'
 import Todo from './pages/Todo/Todo'
 import Timer from './pages/Timer/Timer'
+import Calc from './pages/Calc/Calc'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/todo" element={<Todo />} />
         <Route path="/timer" element={<Timer />} />
+        <Route path="/calc" element={<Calc />} />
       </Routes>
     </div>
   )
