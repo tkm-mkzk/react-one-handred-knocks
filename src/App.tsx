@@ -8,6 +8,7 @@ import Counter from './pages/Counter/Counter'
 import Todo from './pages/Todo/Todo'
 import Timer from './pages/Timer/Timer'
 import Calc from './pages/Calc/Calc'
+import Profile from './pages/Profile/Profile'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/todo" element={<Todo />} />
         <Route path="/timer" element={<Timer />} />
         <Route path="/calc" element={<Calc />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </div>
   )
